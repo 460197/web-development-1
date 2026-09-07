@@ -1,6 +1,6 @@
 *
 {
-    font-family: Calibri, Arial,sans-serif;
+    font-family: cursive;
     background-color:bisque;
 }
 div
@@ -10,6 +10,46 @@ div
     background-color: lightskyblue;
     color: white;
 }
+div.gallery 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color:bisque;
+  color: black;
+}
+
+div.gallery-item 
+{
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+  background-color:bisque;
+  color: black;
+}
+
+div.gallery-item:hover 
+{
+  border: 1px solid #777;
+  background-color:bisque;
+  color: black;
+}
+
+div.gallery-item img 
+{
+  width: 100%;
+  height: auto;
+  background-color:bisque;
+  color: black;
+}
+
+div.gallery-item div.desc 
+{
+  padding: 15px;
+  text-align: center;
+  background-color:bisque;
+  color: black;
+}
 th,td
 {
     text-align: center;
@@ -17,14 +57,14 @@ th,td
     background-color: lightgreen;
     color: black;
 }
-img
-{
-    display: block;
-    margin: auto;
-    width: 50%;
-    border-radius: 10px;
-}
 h1, p
 {
     background-color: inherit;
+    font-family: inherit;
+}
+h2, h3
+{
+    text-align:left;
+    color:orange;
+    background-color: bisque;
 }
