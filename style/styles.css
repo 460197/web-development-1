@@ -1,16 +1,30 @@
 *
 {
     font-family: Calibri, Arial,sans-serif;
-    color: rgb(7, 0, 1);
+    background-color:bisque;
 }
 div
 {
     text-align: center;
     padding:5px;
     background-color: lightskyblue;
+    color: white;
 }
 th,td
 {
     text-align: center;
+    padding: 10px;
     background-color: lightgreen;
+    color: black;
+}
+img
+{
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+}
+h1, p
+{
+    background-color: inherit;
 }
